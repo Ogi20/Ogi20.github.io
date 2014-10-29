@@ -1,0 +1,246 @@
+.CastMetaDiv {
+ height:860px;
+ width:300px;
+ background-color:black;
+ display:inline-block;
+ position:relative;
+ color:white;
+ }
+  
+ figure { 
+  border: none;
+  max-width:120px;
+  position:relative;
+  overflow:hidden;
+  height: 180px;
+  margin-left: 50px;
+  }
+  figcaption {
+background: rgba(0,0,0,0.8);
+color: white;
+display: table;
+width:130px;
+left: 0;
+height: 180px;
+opacity: 0;
+position: absolute;
+bottom: 0;
+left: -30%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+z-index: 100;
+}
+ figure:hover figcaption {
+opacity: 1;
+left: 0;
+}
+.castimg {
+   max-width: 120px;
+   position: relative;
+   }
+ .CastDiv {
+ height:178px;
+ width:230px;
+ background-color:#cc4144;
+ border-radius:15px;
+ margin-top:10px;
+}
+body {
+ background-color:black;
+ }
+ .videoDiv {
+ height:600px;
+ width:850px;
+ background-color:#cc4144;
+ color:white;
+ display:inline-block;
+ margin-bottom:100px;
+ border-radius:15px;
+ }
+ 
+ .castheader{
+ padding-left:42px;
+ font-family:Verdana;
+ }
+ .vidheader {
+ font-family:Verdana;
+ padding-left:50px;
+ display:inline-block;
+ }
+ 
+ .captiontext {
+  font-family: Verdana;
+  font-size: 20px;
+  padding-right: 10px;
+  }
+  
+  
+  .imgcontainer {
+    position: fixed;
+    width: 40%;
+    z-index: 105;
+}
+
+.logo {
+    width: 230px;
+    position: absolute;
+    margin-top: -59px;
+    margin-left: 40px;
+    display: fixed;
+}
+.topmenu {
+    display: inline-block;
+    margin-right: 4px;
+    text-align: center;
+    color: white;
+    vertical-align: top;
+    font-weight: bold; 
+}
+#active {
+    color: red;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+#topmenu {
+    position: fixed;
+    width: 100%;
+    margin-left: 4px;
+    text-align: center;
+	padding: 3px;
+    height: 5px;
+    z-index: 100;
+}
+#opacity {
+    position: fixed;
+    width: 100%;
+    margin-left: -2px;
+    text-align: center;
+    padding: 1px;
+    height: 60px;
+    background-color: #cc4144;
+    opacity: 0.9;
+    z-index: 99;
+	vertical-align: top;
+	}
+	.nolink {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    padding-top:40px;
+}
+.menufig {
+    margin-top: -20px;
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+    display: block;
+    width: 68px;
+}
+.menufigc {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    width: 65px;
+    height: 65px;
+    opacity: 0;
+    top: -100%;
+    text-align: center;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+.menufig:hover .menufigc {
+    opacity: 1;
+    top: 40px;
+}
+.menubutton{
+    width: 70px;
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.invisible {
+    width:50px;
+	height:70px;
+	vertical-align:right;
+	border:solid;
+	}
+	
+	.film  {
+    position: absolute;
+	height: 550px;
+	width: 750px;
+	margin-top: 5px;
+	margin-left: 300px;
+	margin-right: 400px;
+    background-color: #cc4144;
+	border-radius: 20px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.titel{
+	padding-left:320px;
+	}
+	.link1 {
+	color:white;
+	}
+	.verhaal{
+	font-family: Verdana;
+	}
+	.Kijkwijzerleeftijd{
+	color: black;
+	border-radius:80px;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	margin-bottom:-8px;
+	}
+	.Kijkwijzergeweld{
+	color: black;
+	border-radius:80px;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	margin-bottom:-8px;
+	}
+	.Kijkwijzerangst{
+	color: black;
+	border-radius:80px;
+	height: 40px;
+	width: 40px;
+	margin-left: 10px;
+	margin-bottom:-8px;
+	}
+	.Genre{
+	margin-left:10px;
+	font-family: Verdana;
+	}
+	.Filmduur{
+	margin-left:10px;
+	font-family: Verdana
+	}
+	.Regisuur{
+	margin-left:10px;
+	font-family: Verdana
+	}
+	.link{
+	color:white
+	}
+	#poster{
+	height: 322px;
+	width:  450px;
+	margin-left: 310px;
+	margin-top: -87px;
+	border-radius: 20px;
+	
+	}
+	video {
+	height: 600px;
+	width:850px;
+	
+	}
